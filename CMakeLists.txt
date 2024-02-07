@@ -5,7 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(cppdemo main.c)
 
-add_subdirectory(t100)
+add_subdirectory(t100_01)
+add_subdirectory(t100_02)
 add_subdirectory(chapter_01)
 add_subdirectory(LuoGu)
 add_subdirectory(cpp)

@@ -2,9 +2,7 @@
 * @author yklsfzy
 * @date 2024/2/8/0008 20:56:53
 */
-//  Created by www.runoob.com on 15/11/9.
-//  Copyright © 2015年 菜鸟教程. All rights reserved.
-//
+
 
 #include<cstdio>
 #include<cmath>

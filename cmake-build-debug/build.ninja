@@ -1185,6 +1185,72 @@ build t100_02/t33.exe: CXX_EXECUTABLE_LINKER__t33_Debug t100_02/CMakeFiles/t33.d
   TARGET_IMPLIB = t100_02\libt33.dll.a
   TARGET_PDB = t33.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target t35
+
+
+#############################################
+# Order-only phony target for t35
+
+build cmake_object_order_depends_target_t35: phony || t100_02/CMakeFiles/t35.dir
+
+build t100_02/CMakeFiles/t35.dir/t35.cpp.obj: CXX_COMPILER__t35_unscanned_Debug D$:/cppdemo/t100_02/t35.cpp || cmake_object_order_depends_target_t35
+  DEP_FILE = t100_02\CMakeFiles\t35.dir\t35.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = t100_02\CMakeFiles\t35.dir
+  OBJECT_FILE_DIR = t100_02\CMakeFiles\t35.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target t35
+
+
+#############################################
+# Link the executable t100_02\t35.exe
+
+build t100_02/t35.exe: CXX_EXECUTABLE_LINKER__t35_Debug t100_02/CMakeFiles/t35.dir/t35.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = t100_02\CMakeFiles\t35.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = t100_02\t35.exe
+  TARGET_IMPLIB = t100_02\libt35.dll.a
+  TARGET_PDB = t35.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target t36
+
+
+#############################################
+# Order-only phony target for t36
+
+build cmake_object_order_depends_target_t36: phony || t100_02/CMakeFiles/t36.dir
+
+build t100_02/CMakeFiles/t36.dir/t36.cpp.obj: CXX_COMPILER__t36_unscanned_Debug D$:/cppdemo/t100_02/t36.cpp || cmake_object_order_depends_target_t36
+  DEP_FILE = t100_02\CMakeFiles\t36.dir\t36.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = t100_02\CMakeFiles\t36.dir
+  OBJECT_FILE_DIR = t100_02\CMakeFiles\t36.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target t36
+
+
+#############################################
+# Link the executable t100_02\t36.exe
+
+build t100_02/t36.exe: CXX_EXECUTABLE_LINKER__t36_Debug t100_02/CMakeFiles/t36.dir/t36.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = t100_02\CMakeFiles\t36.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = t100_02\t36.exe
+  TARGET_IMPLIB = t100_02\libt36.dll.a
+  TARGET_PDB = t36.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1995,6 +2061,14 @@ build t33: phony t100_02/t33.exe
 
 build t33.exe: phony t100_02/t33.exe
 
+build t35: phony t100_02/t35.exe
+
+build t35.exe: phony t100_02/t35.exe
+
+build t36: phony t100_02/t36.exe
+
+build t36.exe: phony t100_02/t36.exe
+
 build t4: phony t100_01/t4.exe
 
 build t4.exe: phony t100_01/t4.exe
@@ -2062,7 +2136,7 @@ build t100_01/all: phony t100_01/t1.exe t100_01/t2.exe t100_01/t3.exe t100_01/t4
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug/t100_02
 
-build t100_02/all: phony t100_02/t31.exe t100_02/t32.exe t100_02/t33.exe
+build t100_02/all: phony t100_02/t31.exe t100_02/t32.exe t100_02/t33.exe t100_02/t35.exe t100_02/t36.exe
 
 # =============================================================================
 # Built-in targets

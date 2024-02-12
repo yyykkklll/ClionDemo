@@ -1280,105 +1280,6 @@ build t100_02/rebuild_cache: phony t100_02/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target demo_01
-
-
-#############################################
-# Order-only phony target for demo_01
-
-build cmake_object_order_depends_target_demo_01: phony || chapter_01/CMakeFiles/demo_01.dir
-
-build chapter_01/CMakeFiles/demo_01.dir/demo_01.cpp.obj: CXX_COMPILER__demo_01_unscanned_Debug D$:/cppdemo/chapter_01/demo_01.cpp || cmake_object_order_depends_target_demo_01
-  DEP_FILE = chapter_01\CMakeFiles\demo_01.dir\demo_01.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = chapter_01\CMakeFiles\demo_01.dir
-  OBJECT_FILE_DIR = chapter_01\CMakeFiles\demo_01.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target demo_01
-
-
-#############################################
-# Link the executable chapter_01\demo_01.exe
-
-build chapter_01/demo_01.exe: CXX_EXECUTABLE_LINKER__demo_01_Debug chapter_01/CMakeFiles/demo_01.dir/demo_01.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = chapter_01\CMakeFiles\demo_01.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = chapter_01\demo_01.exe
-  TARGET_IMPLIB = chapter_01\libdemo_01.dll.a
-  TARGET_PDB = demo_01.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target CopyFile
-
-
-#############################################
-# Order-only phony target for CopyFile
-
-build cmake_object_order_depends_target_CopyFile: phony || chapter_01/CMakeFiles/CopyFile.dir
-
-build chapter_01/CMakeFiles/CopyFile.dir/CopyFile.c.obj: C_COMPILER__CopyFile_unscanned_Debug D$:/cppdemo/chapter_01/CopyFile.c || cmake_object_order_depends_target_CopyFile
-  DEP_FILE = chapter_01\CMakeFiles\CopyFile.dir\CopyFile.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = chapter_01\CMakeFiles\CopyFile.dir
-  OBJECT_FILE_DIR = chapter_01\CMakeFiles\CopyFile.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CopyFile
-
-
-#############################################
-# Link the executable chapter_01\CopyFile.exe
-
-build chapter_01/CopyFile.exe: C_EXECUTABLE_LINKER__CopyFile_Debug chapter_01/CMakeFiles/CopyFile.dir/CopyFile.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = chapter_01\CMakeFiles\CopyFile.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = chapter_01\CopyFile.exe
-  TARGET_IMPLIB = chapter_01\libCopyFile.dll.a
-  TARGET_PDB = CopyFile.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 10-4
-
-
-#############################################
-# Order-only phony target for 10-4
-
-build cmake_object_order_depends_target_10-4: phony || chapter_01/CMakeFiles/10-4.dir
-
-build chapter_01/CMakeFiles/10-4.dir/10-4.c.obj: C_COMPILER__10-4_unscanned_Debug D$:/cppdemo/chapter_01/10-4.c || cmake_object_order_depends_target_10-4
-  DEP_FILE = chapter_01\CMakeFiles\10-4.dir\10-4.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = chapter_01\CMakeFiles\10-4.dir
-  OBJECT_FILE_DIR = chapter_01\CMakeFiles\10-4.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 10-4
-
-
-#############################################
-# Link the executable chapter_01\10-4.exe
-
-build chapter_01/10-4.exe: C_EXECUTABLE_LINKER__10-4_Debug chapter_01/CMakeFiles/10-4.dir/10-4.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = chapter_01\CMakeFiles\10-4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = chapter_01\10-4.exe
-  TARGET_IMPLIB = chapter_01\lib10-4.dll.a
-  TARGET_PDB = 10-4.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target test
 
 
@@ -1410,6 +1311,39 @@ build chapter_01/test.exe: C_EXECUTABLE_LINKER__test_Debug chapter_01/CMakeFiles
   TARGET_FILE = chapter_01\test.exe
   TARGET_IMPLIB = chapter_01\libtest.dll.a
   TARGET_PDB = test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_02
+
+
+#############################################
+# Order-only phony target for test_02
+
+build cmake_object_order_depends_target_test_02: phony || chapter_01/CMakeFiles/test_02.dir
+
+build chapter_01/CMakeFiles/test_02.dir/test_02.c.obj: C_COMPILER__test_02_unscanned_Debug D$:/cppdemo/chapter_01/test_02.c || cmake_object_order_depends_target_test_02
+  DEP_FILE = chapter_01\CMakeFiles\test_02.dir\test_02.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = chapter_01\CMakeFiles\test_02.dir
+  OBJECT_FILE_DIR = chapter_01\CMakeFiles\test_02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_02
+
+
+#############################################
+# Link the executable chapter_01\test_02.exe
+
+build chapter_01/test_02.exe: C_EXECUTABLE_LINKER__test_02_Debug chapter_01/CMakeFiles/test_02.dir/test_02.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter_01\CMakeFiles\test_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter_01\test_02.exe
+  TARGET_IMPLIB = chapter_01\libtest_02.dll.a
+  TARGET_PDB = test_02.exe.dbg
 
 
 #############################################
@@ -1891,10 +1825,6 @@ build cpp/rebuild_cache: phony cpp/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 10-4: phony chapter_01/10-4.exe
-
-build 10-4.exe: phony chapter_01/10-4.exe
-
 build B2001: phony LuoGu/B2001.exe
 
 build B2001.exe: phony LuoGu/B2001.exe
@@ -1939,15 +1869,7 @@ build ClassDemo_01: phony cpp/ClassDemo_01.exe
 
 build ClassDemo_01.exe: phony cpp/ClassDemo_01.exe
 
-build CopyFile: phony chapter_01/CopyFile.exe
-
-build CopyFile.exe: phony chapter_01/CopyFile.exe
-
 build cppdemo: phony cppdemo.exe
-
-build demo_01: phony chapter_01/demo_01.exe
-
-build demo_01.exe: phony chapter_01/demo_01.exe
 
 build student: phony cpp/student.exe
 
@@ -2093,6 +2015,10 @@ build test: phony chapter_01/test.exe
 
 build test.exe: phony chapter_01/test.exe
 
+build test_02: phony chapter_01/test_02.exe
+
+build test_02.exe: phony chapter_01/test_02.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -2115,7 +2041,7 @@ build LuoGu/all: phony LuoGu/B2001.exe LuoGu/B2002.exe LuoGu/B2003.exe LuoGu/B20
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug/chapter_01
 
-build chapter_01/all: phony chapter_01/demo_01.exe chapter_01/CopyFile.exe chapter_01/10-4.exe chapter_01/test.exe
+build chapter_01/all: phony chapter_01/test.exe chapter_01/test_02.exe
 
 # =============================================================================
 

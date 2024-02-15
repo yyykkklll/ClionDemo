@@ -1,7 +1,10 @@
 #include <stdio.h>
-
-int main()
-{   
-    printf("hello world");
-    return 0;
+#include <string.h>
+int main(void) {
+    char s[] = "Hello, world!";
+    char t[100];
+    strcpy(t, s);
+    t[0] = 'z';
+    printf("%s\n", s);
+    printf("%s\n", t);
 }

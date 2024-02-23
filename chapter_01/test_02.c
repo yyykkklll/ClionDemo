@@ -1,10 +1,18 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
-    char s[] = "Hello, world!";
-    char r[100];
-    memcpy(r, s, strlen(s));
-    printf("%s\n", r);
+    char ch;
+    FILE *fp = fopen("io_01.txt", "w");
+    if (fp == NULL) {
+        printf("Cannot open file\n");
+        return 1;
+    }
+    ch = (char) getchar();
+    // input the character '#' ending this io
+    while (ch != '#') {
+        fputc(ch, fp);
+        ch = (char) getchar();
+    }
+    fclose(fp);
     return 0;
 }

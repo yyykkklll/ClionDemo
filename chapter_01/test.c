@@ -1,10 +1,14 @@
 #include <stdio.h>
-#include <string.h>
-int main(void) {
-    char s[] = "Hello, world!";
-    char t[100];
-    strcpy(t, s);
-    t[0] = 'z';
-    printf("%s\n", s);
-    printf("%s\n", t);
+int main()
+{
+    char buf[1024];
+    FILE *in = fopen("io_01.txt", "r");
+    FILE *out = fopen("io_02.txt", "w");
+    while (fgets(buf, 1024, in) != NULL)
+    {
+        fputs(buf, out);
+    }
+    fclose(in);
+    fclose(out);
+    return 0;
 }

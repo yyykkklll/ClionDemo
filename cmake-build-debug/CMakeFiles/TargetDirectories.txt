@@ -59,3 +59,8 @@ D:/cppdemo/cmake-build-debug/cpp/CMakeFiles/ClassDemo_01.dir
 D:/cppdemo/cmake-build-debug/cpp/CMakeFiles/student.dir
 D:/cppdemo/cmake-build-debug/cpp/CMakeFiles/edit_cache.dir
 D:/cppdemo/cmake-build-debug/cpp/CMakeFiles/rebuild_cache.dir
+D:/cppdemo/cmake-build-debug/873/CMakeFiles/p1.dir
+D:/cppdemo/cmake-build-debug/873/CMakeFiles/p2.dir
+D:/cppdemo/cmake-build-debug/873/CMakeFiles/p3.dir
+D:/cppdemo/cmake-build-debug/873/CMakeFiles/edit_cache.dir
+D:/cppdemo/cmake-build-debug/873/CMakeFiles/rebuild_cache.dir

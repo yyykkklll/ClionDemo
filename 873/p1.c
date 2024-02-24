@@ -1,9 +1,10 @@
 /**
-* @author yklsfzy
-* @date 2024/2/23/0023 17:12:41
-*/
+ * @author yklsfzy
+ * @date 2024/2/23/0023 17:12:41
+ */
 #include <stdio.h>
-int main(){
+int main()
+{
     int year;
     printf("please input a number");
     scanf("%d", &year);

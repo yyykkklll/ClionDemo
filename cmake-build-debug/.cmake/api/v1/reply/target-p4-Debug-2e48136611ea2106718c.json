@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "t100_01/t26.exe"
+			"path" : "873/p4.exe"
 		},
 		{
-			"path" : "t100_01/t26.pdb"
+			"path" : "873/p4.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"t100_01/CMakeLists.txt"
+			"873/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -38,17 +38,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
-			"language" : "CXX",
+			"language" : "C",
 			"languageStandard" : 
 			{
 				"backtraces" : 
 				[
 					1
 				],
-				"standard" : "17"
+				"standard" : "11"
 			},
 			"sourceIndexes" : 
 			[
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "t26::@e7304eaa07a20ef89b57",
+	"id" : "p4::@d1a7126a1774debf66f3",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,14 +74,14 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
-	"name" : "t26",
-	"nameOnDisk" : "t26.exe",
+	"name" : "p4",
+	"nameOnDisk" : "p4.exe",
 	"paths" : 
 	{
-		"build" : "t100_01",
-		"source" : "t100_01"
+		"build" : "873",
+		"source" : "873"
 	},
 	"sourceGroups" : 
 	[
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "t100_01/t26.cpp",
+			"path" : "873/p4.c",
 			"sourceGroupIndex" : 0
 		}
 	],

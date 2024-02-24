@@ -39,16 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cppdemo/cmake-build-debug/t100_01/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/cppdemo/cmake-build-debug/t100_02/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("D:/cppdemo/cmake-build-debug/chapter_01/cmake_install.cmake")
 endif()
 
@@ -65,6 +55,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("D:/cppdemo/cmake-build-debug/873/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/cppdemo/cmake-build-debug/LeetCode/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

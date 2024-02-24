@@ -102,1217 +102,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target t1
-
-
-#############################################
-# Order-only phony target for t1
-
-build cmake_object_order_depends_target_t1: phony || t100_01/CMakeFiles/t1.dir
-
-build t100_01/CMakeFiles/t1.dir/t1.c.obj: C_COMPILER__t1_unscanned_Debug D$:/cppdemo/t100_01/t1.c || cmake_object_order_depends_target_t1
-  DEP_FILE = t100_01\CMakeFiles\t1.dir\t1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t1.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t1
-
-
-#############################################
-# Link the executable t100_01\t1.exe
-
-build t100_01/t1.exe: C_EXECUTABLE_LINKER__t1_Debug t100_01/CMakeFiles/t1.dir/t1.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t1.exe
-  TARGET_IMPLIB = t100_01\libt1.dll.a
-  TARGET_PDB = t1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t2
-
-
-#############################################
-# Order-only phony target for t2
-
-build cmake_object_order_depends_target_t2: phony || t100_01/CMakeFiles/t2.dir
-
-build t100_01/CMakeFiles/t2.dir/t2.c.obj: C_COMPILER__t2_unscanned_Debug D$:/cppdemo/t100_01/t2.c || cmake_object_order_depends_target_t2
-  DEP_FILE = t100_01\CMakeFiles\t2.dir\t2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t2.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t2
-
-
-#############################################
-# Link the executable t100_01\t2.exe
-
-build t100_01/t2.exe: C_EXECUTABLE_LINKER__t2_Debug t100_01/CMakeFiles/t2.dir/t2.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t2.exe
-  TARGET_IMPLIB = t100_01\libt2.dll.a
-  TARGET_PDB = t2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t3
-
-
-#############################################
-# Order-only phony target for t3
-
-build cmake_object_order_depends_target_t3: phony || t100_01/CMakeFiles/t3.dir
-
-build t100_01/CMakeFiles/t3.dir/t3.c.obj: C_COMPILER__t3_unscanned_Debug D$:/cppdemo/t100_01/t3.c || cmake_object_order_depends_target_t3
-  DEP_FILE = t100_01\CMakeFiles\t3.dir\t3.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t3.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t3.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t3
-
-
-#############################################
-# Link the executable t100_01\t3.exe
-
-build t100_01/t3.exe: C_EXECUTABLE_LINKER__t3_Debug t100_01/CMakeFiles/t3.dir/t3.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t3.exe
-  TARGET_IMPLIB = t100_01\libt3.dll.a
-  TARGET_PDB = t3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t4
-
-
-#############################################
-# Order-only phony target for t4
-
-build cmake_object_order_depends_target_t4: phony || t100_01/CMakeFiles/t4.dir
-
-build t100_01/CMakeFiles/t4.dir/t4.c.obj: C_COMPILER__t4_unscanned_Debug D$:/cppdemo/t100_01/t4.c || cmake_object_order_depends_target_t4
-  DEP_FILE = t100_01\CMakeFiles\t4.dir\t4.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t4.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t4.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t4
-
-
-#############################################
-# Link the executable t100_01\t4.exe
-
-build t100_01/t4.exe: C_EXECUTABLE_LINKER__t4_Debug t100_01/CMakeFiles/t4.dir/t4.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t4.exe
-  TARGET_IMPLIB = t100_01\libt4.dll.a
-  TARGET_PDB = t4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t5
-
-
-#############################################
-# Order-only phony target for t5
-
-build cmake_object_order_depends_target_t5: phony || t100_01/CMakeFiles/t5.dir
-
-build t100_01/CMakeFiles/t5.dir/t5.c.obj: C_COMPILER__t5_unscanned_Debug D$:/cppdemo/t100_01/t5.c || cmake_object_order_depends_target_t5
-  DEP_FILE = t100_01\CMakeFiles\t5.dir\t5.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t5.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t5.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t5
-
-
-#############################################
-# Link the executable t100_01\t5.exe
-
-build t100_01/t5.exe: C_EXECUTABLE_LINKER__t5_Debug t100_01/CMakeFiles/t5.dir/t5.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t5.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t5.exe
-  TARGET_IMPLIB = t100_01\libt5.dll.a
-  TARGET_PDB = t5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t6
-
-
-#############################################
-# Order-only phony target for t6
-
-build cmake_object_order_depends_target_t6: phony || t100_01/CMakeFiles/t6.dir
-
-build t100_01/CMakeFiles/t6.dir/t6.c.obj: C_COMPILER__t6_unscanned_Debug D$:/cppdemo/t100_01/t6.c || cmake_object_order_depends_target_t6
-  DEP_FILE = t100_01\CMakeFiles\t6.dir\t6.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t6.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t6.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t6
-
-
-#############################################
-# Link the executable t100_01\t6.exe
-
-build t100_01/t6.exe: C_EXECUTABLE_LINKER__t6_Debug t100_01/CMakeFiles/t6.dir/t6.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t6.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t6.exe
-  TARGET_IMPLIB = t100_01\libt6.dll.a
-  TARGET_PDB = t6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t8
-
-
-#############################################
-# Order-only phony target for t8
-
-build cmake_object_order_depends_target_t8: phony || t100_01/CMakeFiles/t8.dir
-
-build t100_01/CMakeFiles/t8.dir/t8.c.obj: C_COMPILER__t8_unscanned_Debug D$:/cppdemo/t100_01/t8.c || cmake_object_order_depends_target_t8
-  DEP_FILE = t100_01\CMakeFiles\t8.dir\t8.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t8.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t8.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t8
-
-
-#############################################
-# Link the executable t100_01\t8.exe
-
-build t100_01/t8.exe: C_EXECUTABLE_LINKER__t8_Debug t100_01/CMakeFiles/t8.dir/t8.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t8.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t8.exe
-  TARGET_IMPLIB = t100_01\libt8.dll.a
-  TARGET_PDB = t8.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t9
-
-
-#############################################
-# Order-only phony target for t9
-
-build cmake_object_order_depends_target_t9: phony || t100_01/CMakeFiles/t9.dir
-
-build t100_01/CMakeFiles/t9.dir/t9.c.obj: C_COMPILER__t9_unscanned_Debug D$:/cppdemo/t100_01/t9.c || cmake_object_order_depends_target_t9
-  DEP_FILE = t100_01\CMakeFiles\t9.dir\t9.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t9.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t9.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t9
-
-
-#############################################
-# Link the executable t100_01\t9.exe
-
-build t100_01/t9.exe: C_EXECUTABLE_LINKER__t9_Debug t100_01/CMakeFiles/t9.dir/t9.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t9.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t9.exe
-  TARGET_IMPLIB = t100_01\libt9.dll.a
-  TARGET_PDB = t9.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t10
-
-
-#############################################
-# Order-only phony target for t10
-
-build cmake_object_order_depends_target_t10: phony || t100_01/CMakeFiles/t10.dir
-
-build t100_01/CMakeFiles/t10.dir/t10.c.obj: C_COMPILER__t10_unscanned_Debug D$:/cppdemo/t100_01/t10.c || cmake_object_order_depends_target_t10
-  DEP_FILE = t100_01\CMakeFiles\t10.dir\t10.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t10.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t10.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t10
-
-
-#############################################
-# Link the executable t100_01\t10.exe
-
-build t100_01/t10.exe: C_EXECUTABLE_LINKER__t10_Debug t100_01/CMakeFiles/t10.dir/t10.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t10.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t10.exe
-  TARGET_IMPLIB = t100_01\libt10.dll.a
-  TARGET_PDB = t10.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t11
-
-
-#############################################
-# Order-only phony target for t11
-
-build cmake_object_order_depends_target_t11: phony || t100_01/CMakeFiles/t11.dir
-
-build t100_01/CMakeFiles/t11.dir/t11.c.obj: C_COMPILER__t11_unscanned_Debug D$:/cppdemo/t100_01/t11.c || cmake_object_order_depends_target_t11
-  DEP_FILE = t100_01\CMakeFiles\t11.dir\t11.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t11.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t11.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t11
-
-
-#############################################
-# Link the executable t100_01\t11.exe
-
-build t100_01/t11.exe: C_EXECUTABLE_LINKER__t11_Debug t100_01/CMakeFiles/t11.dir/t11.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t11.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t11.exe
-  TARGET_IMPLIB = t100_01\libt11.dll.a
-  TARGET_PDB = t11.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t12
-
-
-#############################################
-# Order-only phony target for t12
-
-build cmake_object_order_depends_target_t12: phony || t100_01/CMakeFiles/t12.dir
-
-build t100_01/CMakeFiles/t12.dir/t12.c.obj: C_COMPILER__t12_unscanned_Debug D$:/cppdemo/t100_01/t12.c || cmake_object_order_depends_target_t12
-  DEP_FILE = t100_01\CMakeFiles\t12.dir\t12.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t12.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t12.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t12
-
-
-#############################################
-# Link the executable t100_01\t12.exe
-
-build t100_01/t12.exe: C_EXECUTABLE_LINKER__t12_Debug t100_01/CMakeFiles/t12.dir/t12.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t12.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t12.exe
-  TARGET_IMPLIB = t100_01\libt12.dll.a
-  TARGET_PDB = t12.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t13
-
-
-#############################################
-# Order-only phony target for t13
-
-build cmake_object_order_depends_target_t13: phony || t100_01/CMakeFiles/t13.dir
-
-build t100_01/CMakeFiles/t13.dir/t13.c.obj: C_COMPILER__t13_unscanned_Debug D$:/cppdemo/t100_01/t13.c || cmake_object_order_depends_target_t13
-  DEP_FILE = t100_01\CMakeFiles\t13.dir\t13.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t13.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t13.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t13
-
-
-#############################################
-# Link the executable t100_01\t13.exe
-
-build t100_01/t13.exe: C_EXECUTABLE_LINKER__t13_Debug t100_01/CMakeFiles/t13.dir/t13.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t13.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t13.exe
-  TARGET_IMPLIB = t100_01\libt13.dll.a
-  TARGET_PDB = t13.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t14
-
-
-#############################################
-# Order-only phony target for t14
-
-build cmake_object_order_depends_target_t14: phony || t100_01/CMakeFiles/t14.dir
-
-build t100_01/CMakeFiles/t14.dir/t14.c.obj: C_COMPILER__t14_unscanned_Debug D$:/cppdemo/t100_01/t14.c || cmake_object_order_depends_target_t14
-  DEP_FILE = t100_01\CMakeFiles\t14.dir\t14.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t14.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t14.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t14
-
-
-#############################################
-# Link the executable t100_01\t14.exe
-
-build t100_01/t14.exe: C_EXECUTABLE_LINKER__t14_Debug t100_01/CMakeFiles/t14.dir/t14.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t14.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t14.exe
-  TARGET_IMPLIB = t100_01\libt14.dll.a
-  TARGET_PDB = t14.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t15
-
-
-#############################################
-# Order-only phony target for t15
-
-build cmake_object_order_depends_target_t15: phony || t100_01/CMakeFiles/t15.dir
-
-build t100_01/CMakeFiles/t15.dir/t15.c.obj: C_COMPILER__t15_unscanned_Debug D$:/cppdemo/t100_01/t15.c || cmake_object_order_depends_target_t15
-  DEP_FILE = t100_01\CMakeFiles\t15.dir\t15.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t15.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t15.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t15
-
-
-#############################################
-# Link the executable t100_01\t15.exe
-
-build t100_01/t15.exe: C_EXECUTABLE_LINKER__t15_Debug t100_01/CMakeFiles/t15.dir/t15.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t15.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t15.exe
-  TARGET_IMPLIB = t100_01\libt15.dll.a
-  TARGET_PDB = t15.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t16
-
-
-#############################################
-# Order-only phony target for t16
-
-build cmake_object_order_depends_target_t16: phony || t100_01/CMakeFiles/t16.dir
-
-build t100_01/CMakeFiles/t16.dir/t16.c.obj: C_COMPILER__t16_unscanned_Debug D$:/cppdemo/t100_01/t16.c || cmake_object_order_depends_target_t16
-  DEP_FILE = t100_01\CMakeFiles\t16.dir\t16.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t16.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t16.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t16
-
-
-#############################################
-# Link the executable t100_01\t16.exe
-
-build t100_01/t16.exe: C_EXECUTABLE_LINKER__t16_Debug t100_01/CMakeFiles/t16.dir/t16.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t16.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t16.exe
-  TARGET_IMPLIB = t100_01\libt16.dll.a
-  TARGET_PDB = t16.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t17
-
-
-#############################################
-# Order-only phony target for t17
-
-build cmake_object_order_depends_target_t17: phony || t100_01/CMakeFiles/t17.dir
-
-build t100_01/CMakeFiles/t17.dir/t17.c.obj: C_COMPILER__t17_unscanned_Debug D$:/cppdemo/t100_01/t17.c || cmake_object_order_depends_target_t17
-  DEP_FILE = t100_01\CMakeFiles\t17.dir\t17.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t17.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t17.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t17
-
-
-#############################################
-# Link the executable t100_01\t17.exe
-
-build t100_01/t17.exe: C_EXECUTABLE_LINKER__t17_Debug t100_01/CMakeFiles/t17.dir/t17.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t17.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t17.exe
-  TARGET_IMPLIB = t100_01\libt17.dll.a
-  TARGET_PDB = t17.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t18
-
-
-#############################################
-# Order-only phony target for t18
-
-build cmake_object_order_depends_target_t18: phony || t100_01/CMakeFiles/t18.dir
-
-build t100_01/CMakeFiles/t18.dir/t18.cpp.obj: CXX_COMPILER__t18_unscanned_Debug D$:/cppdemo/t100_01/t18.cpp || cmake_object_order_depends_target_t18
-  DEP_FILE = t100_01\CMakeFiles\t18.dir\t18.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t18.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t18.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t18
-
-
-#############################################
-# Link the executable t100_01\t18.exe
-
-build t100_01/t18.exe: CXX_EXECUTABLE_LINKER__t18_Debug t100_01/CMakeFiles/t18.dir/t18.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t18.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t18.exe
-  TARGET_IMPLIB = t100_01\libt18.dll.a
-  TARGET_PDB = t18.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t19
-
-
-#############################################
-# Order-only phony target for t19
-
-build cmake_object_order_depends_target_t19: phony || t100_01/CMakeFiles/t19.dir
-
-build t100_01/CMakeFiles/t19.dir/t19.cpp.obj: CXX_COMPILER__t19_unscanned_Debug D$:/cppdemo/t100_01/t19.cpp || cmake_object_order_depends_target_t19
-  DEP_FILE = t100_01\CMakeFiles\t19.dir\t19.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t19.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t19.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t19
-
-
-#############################################
-# Link the executable t100_01\t19.exe
-
-build t100_01/t19.exe: CXX_EXECUTABLE_LINKER__t19_Debug t100_01/CMakeFiles/t19.dir/t19.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t19.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t19.exe
-  TARGET_IMPLIB = t100_01\libt19.dll.a
-  TARGET_PDB = t19.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t20
-
-
-#############################################
-# Order-only phony target for t20
-
-build cmake_object_order_depends_target_t20: phony || t100_01/CMakeFiles/t20.dir
-
-build t100_01/CMakeFiles/t20.dir/t20.cpp.obj: CXX_COMPILER__t20_unscanned_Debug D$:/cppdemo/t100_01/t20.cpp || cmake_object_order_depends_target_t20
-  DEP_FILE = t100_01\CMakeFiles\t20.dir\t20.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t20.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t20.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t20
-
-
-#############################################
-# Link the executable t100_01\t20.exe
-
-build t100_01/t20.exe: CXX_EXECUTABLE_LINKER__t20_Debug t100_01/CMakeFiles/t20.dir/t20.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t20.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t20.exe
-  TARGET_IMPLIB = t100_01\libt20.dll.a
-  TARGET_PDB = t20.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t21
-
-
-#############################################
-# Order-only phony target for t21
-
-build cmake_object_order_depends_target_t21: phony || t100_01/CMakeFiles/t21.dir
-
-build t100_01/CMakeFiles/t21.dir/t21.cpp.obj: CXX_COMPILER__t21_unscanned_Debug D$:/cppdemo/t100_01/t21.cpp || cmake_object_order_depends_target_t21
-  DEP_FILE = t100_01\CMakeFiles\t21.dir\t21.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t21.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t21.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t21
-
-
-#############################################
-# Link the executable t100_01\t21.exe
-
-build t100_01/t21.exe: CXX_EXECUTABLE_LINKER__t21_Debug t100_01/CMakeFiles/t21.dir/t21.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t21.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t21.exe
-  TARGET_IMPLIB = t100_01\libt21.dll.a
-  TARGET_PDB = t21.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t22
-
-
-#############################################
-# Order-only phony target for t22
-
-build cmake_object_order_depends_target_t22: phony || t100_01/CMakeFiles/t22.dir
-
-build t100_01/CMakeFiles/t22.dir/t22.cpp.obj: CXX_COMPILER__t22_unscanned_Debug D$:/cppdemo/t100_01/t22.cpp || cmake_object_order_depends_target_t22
-  DEP_FILE = t100_01\CMakeFiles\t22.dir\t22.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t22.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t22.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t22
-
-
-#############################################
-# Link the executable t100_01\t22.exe
-
-build t100_01/t22.exe: CXX_EXECUTABLE_LINKER__t22_Debug t100_01/CMakeFiles/t22.dir/t22.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t22.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t22.exe
-  TARGET_IMPLIB = t100_01\libt22.dll.a
-  TARGET_PDB = t22.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t23
-
-
-#############################################
-# Order-only phony target for t23
-
-build cmake_object_order_depends_target_t23: phony || t100_01/CMakeFiles/t23.dir
-
-build t100_01/CMakeFiles/t23.dir/t23.cpp.obj: CXX_COMPILER__t23_unscanned_Debug D$:/cppdemo/t100_01/t23.cpp || cmake_object_order_depends_target_t23
-  DEP_FILE = t100_01\CMakeFiles\t23.dir\t23.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t23.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t23.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t23
-
-
-#############################################
-# Link the executable t100_01\t23.exe
-
-build t100_01/t23.exe: CXX_EXECUTABLE_LINKER__t23_Debug t100_01/CMakeFiles/t23.dir/t23.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t23.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t23.exe
-  TARGET_IMPLIB = t100_01\libt23.dll.a
-  TARGET_PDB = t23.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t24
-
-
-#############################################
-# Order-only phony target for t24
-
-build cmake_object_order_depends_target_t24: phony || t100_01/CMakeFiles/t24.dir
-
-build t100_01/CMakeFiles/t24.dir/t24.cpp.obj: CXX_COMPILER__t24_unscanned_Debug D$:/cppdemo/t100_01/t24.cpp || cmake_object_order_depends_target_t24
-  DEP_FILE = t100_01\CMakeFiles\t24.dir\t24.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t24.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t24.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t24
-
-
-#############################################
-# Link the executable t100_01\t24.exe
-
-build t100_01/t24.exe: CXX_EXECUTABLE_LINKER__t24_Debug t100_01/CMakeFiles/t24.dir/t24.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t24.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t24.exe
-  TARGET_IMPLIB = t100_01\libt24.dll.a
-  TARGET_PDB = t24.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t25
-
-
-#############################################
-# Order-only phony target for t25
-
-build cmake_object_order_depends_target_t25: phony || t100_01/CMakeFiles/t25.dir
-
-build t100_01/CMakeFiles/t25.dir/t25.cpp.obj: CXX_COMPILER__t25_unscanned_Debug D$:/cppdemo/t100_01/t25.cpp || cmake_object_order_depends_target_t25
-  DEP_FILE = t100_01\CMakeFiles\t25.dir\t25.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t25.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t25.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t25
-
-
-#############################################
-# Link the executable t100_01\t25.exe
-
-build t100_01/t25.exe: CXX_EXECUTABLE_LINKER__t25_Debug t100_01/CMakeFiles/t25.dir/t25.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t25.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t25.exe
-  TARGET_IMPLIB = t100_01\libt25.dll.a
-  TARGET_PDB = t25.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t26
-
-
-#############################################
-# Order-only phony target for t26
-
-build cmake_object_order_depends_target_t26: phony || t100_01/CMakeFiles/t26.dir
-
-build t100_01/CMakeFiles/t26.dir/t26.cpp.obj: CXX_COMPILER__t26_unscanned_Debug D$:/cppdemo/t100_01/t26.cpp || cmake_object_order_depends_target_t26
-  DEP_FILE = t100_01\CMakeFiles\t26.dir\t26.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t26.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t26.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t26
-
-
-#############################################
-# Link the executable t100_01\t26.exe
-
-build t100_01/t26.exe: CXX_EXECUTABLE_LINKER__t26_Debug t100_01/CMakeFiles/t26.dir/t26.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t26.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t26.exe
-  TARGET_IMPLIB = t100_01\libt26.dll.a
-  TARGET_PDB = t26.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t27
-
-
-#############################################
-# Order-only phony target for t27
-
-build cmake_object_order_depends_target_t27: phony || t100_01/CMakeFiles/t27.dir
-
-build t100_01/CMakeFiles/t27.dir/t27.cpp.obj: CXX_COMPILER__t27_unscanned_Debug D$:/cppdemo/t100_01/t27.cpp || cmake_object_order_depends_target_t27
-  DEP_FILE = t100_01\CMakeFiles\t27.dir\t27.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t27.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t27.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t27
-
-
-#############################################
-# Link the executable t100_01\t27.exe
-
-build t100_01/t27.exe: CXX_EXECUTABLE_LINKER__t27_Debug t100_01/CMakeFiles/t27.dir/t27.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t27.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t27.exe
-  TARGET_IMPLIB = t100_01\libt27.dll.a
-  TARGET_PDB = t27.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t28
-
-
-#############################################
-# Order-only phony target for t28
-
-build cmake_object_order_depends_target_t28: phony || t100_01/CMakeFiles/t28.dir
-
-build t100_01/CMakeFiles/t28.dir/t28.cpp.obj: CXX_COMPILER__t28_unscanned_Debug D$:/cppdemo/t100_01/t28.cpp || cmake_object_order_depends_target_t28
-  DEP_FILE = t100_01\CMakeFiles\t28.dir\t28.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t28.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t28.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t28
-
-
-#############################################
-# Link the executable t100_01\t28.exe
-
-build t100_01/t28.exe: CXX_EXECUTABLE_LINKER__t28_Debug t100_01/CMakeFiles/t28.dir/t28.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t28.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t28.exe
-  TARGET_IMPLIB = t100_01\libt28.dll.a
-  TARGET_PDB = t28.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t29
-
-
-#############################################
-# Order-only phony target for t29
-
-build cmake_object_order_depends_target_t29: phony || t100_01/CMakeFiles/t29.dir
-
-build t100_01/CMakeFiles/t29.dir/t29.cpp.obj: CXX_COMPILER__t29_unscanned_Debug D$:/cppdemo/t100_01/t29.cpp || cmake_object_order_depends_target_t29
-  DEP_FILE = t100_01\CMakeFiles\t29.dir\t29.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t29.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t29.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t29
-
-
-#############################################
-# Link the executable t100_01\t29.exe
-
-build t100_01/t29.exe: CXX_EXECUTABLE_LINKER__t29_Debug t100_01/CMakeFiles/t29.dir/t29.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t29.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t29.exe
-  TARGET_IMPLIB = t100_01\libt29.dll.a
-  TARGET_PDB = t29.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t30
-
-
-#############################################
-# Order-only phony target for t30
-
-build cmake_object_order_depends_target_t30: phony || t100_01/CMakeFiles/t30.dir
-
-build t100_01/CMakeFiles/t30.dir/t30.cpp.obj: CXX_COMPILER__t30_unscanned_Debug D$:/cppdemo/t100_01/t30.cpp || cmake_object_order_depends_target_t30
-  DEP_FILE = t100_01\CMakeFiles\t30.dir\t30.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_01\CMakeFiles\t30.dir
-  OBJECT_FILE_DIR = t100_01\CMakeFiles\t30.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t30
-
-
-#############################################
-# Link the executable t100_01\t30.exe
-
-build t100_01/t30.exe: CXX_EXECUTABLE_LINKER__t30_Debug t100_01/CMakeFiles/t30.dir/t30.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_01\CMakeFiles\t30.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_01\t30.exe
-  TARGET_IMPLIB = t100_01\libt30.dll.a
-  TARGET_PDB = t30.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build t100_01/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\cppdemo\cmake-build-debug\t100_01 && "D:\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build t100_01/edit_cache: phony t100_01/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build t100_01/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\cppdemo\cmake-build-debug\t100_01 && "D:\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cppdemo -BD:\cppdemo\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build t100_01/rebuild_cache: phony t100_01/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# D:/cppdemo/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t31
-
-
-#############################################
-# Order-only phony target for t31
-
-build cmake_object_order_depends_target_t31: phony || t100_02/CMakeFiles/t31.dir
-
-build t100_02/CMakeFiles/t31.dir/t31.cpp.obj: CXX_COMPILER__t31_unscanned_Debug D$:/cppdemo/t100_02/t31.cpp || cmake_object_order_depends_target_t31
-  DEP_FILE = t100_02\CMakeFiles\t31.dir\t31.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_02\CMakeFiles\t31.dir
-  OBJECT_FILE_DIR = t100_02\CMakeFiles\t31.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t31
-
-
-#############################################
-# Link the executable t100_02\t31.exe
-
-build t100_02/t31.exe: CXX_EXECUTABLE_LINKER__t31_Debug t100_02/CMakeFiles/t31.dir/t31.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_02\CMakeFiles\t31.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_02\t31.exe
-  TARGET_IMPLIB = t100_02\libt31.dll.a
-  TARGET_PDB = t31.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t32
-
-
-#############################################
-# Order-only phony target for t32
-
-build cmake_object_order_depends_target_t32: phony || t100_02/CMakeFiles/t32.dir
-
-build t100_02/CMakeFiles/t32.dir/t32.cpp.obj: CXX_COMPILER__t32_unscanned_Debug D$:/cppdemo/t100_02/t32.cpp || cmake_object_order_depends_target_t32
-  DEP_FILE = t100_02\CMakeFiles\t32.dir\t32.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_02\CMakeFiles\t32.dir
-  OBJECT_FILE_DIR = t100_02\CMakeFiles\t32.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t32
-
-
-#############################################
-# Link the executable t100_02\t32.exe
-
-build t100_02/t32.exe: CXX_EXECUTABLE_LINKER__t32_Debug t100_02/CMakeFiles/t32.dir/t32.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_02\CMakeFiles\t32.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_02\t32.exe
-  TARGET_IMPLIB = t100_02\libt32.dll.a
-  TARGET_PDB = t32.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t33
-
-
-#############################################
-# Order-only phony target for t33
-
-build cmake_object_order_depends_target_t33: phony || t100_02/CMakeFiles/t33.dir
-
-build t100_02/CMakeFiles/t33.dir/t33.cpp.obj: CXX_COMPILER__t33_unscanned_Debug D$:/cppdemo/t100_02/t33.cpp || cmake_object_order_depends_target_t33
-  DEP_FILE = t100_02\CMakeFiles\t33.dir\t33.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_02\CMakeFiles\t33.dir
-  OBJECT_FILE_DIR = t100_02\CMakeFiles\t33.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t33
-
-
-#############################################
-# Link the executable t100_02\t33.exe
-
-build t100_02/t33.exe: CXX_EXECUTABLE_LINKER__t33_Debug t100_02/CMakeFiles/t33.dir/t33.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_02\CMakeFiles\t33.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_02\t33.exe
-  TARGET_IMPLIB = t100_02\libt33.dll.a
-  TARGET_PDB = t33.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t35
-
-
-#############################################
-# Order-only phony target for t35
-
-build cmake_object_order_depends_target_t35: phony || t100_02/CMakeFiles/t35.dir
-
-build t100_02/CMakeFiles/t35.dir/t35.cpp.obj: CXX_COMPILER__t35_unscanned_Debug D$:/cppdemo/t100_02/t35.cpp || cmake_object_order_depends_target_t35
-  DEP_FILE = t100_02\CMakeFiles\t35.dir\t35.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_02\CMakeFiles\t35.dir
-  OBJECT_FILE_DIR = t100_02\CMakeFiles\t35.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t35
-
-
-#############################################
-# Link the executable t100_02\t35.exe
-
-build t100_02/t35.exe: CXX_EXECUTABLE_LINKER__t35_Debug t100_02/CMakeFiles/t35.dir/t35.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_02\CMakeFiles\t35.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_02\t35.exe
-  TARGET_IMPLIB = t100_02\libt35.dll.a
-  TARGET_PDB = t35.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target t36
-
-
-#############################################
-# Order-only phony target for t36
-
-build cmake_object_order_depends_target_t36: phony || t100_02/CMakeFiles/t36.dir
-
-build t100_02/CMakeFiles/t36.dir/t36.cpp.obj: CXX_COMPILER__t36_unscanned_Debug D$:/cppdemo/t100_02/t36.cpp || cmake_object_order_depends_target_t36
-  DEP_FILE = t100_02\CMakeFiles\t36.dir\t36.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = t100_02\CMakeFiles\t36.dir
-  OBJECT_FILE_DIR = t100_02\CMakeFiles\t36.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target t36
-
-
-#############################################
-# Link the executable t100_02\t36.exe
-
-build t100_02/t36.exe: CXX_EXECUTABLE_LINKER__t36_Debug t100_02/CMakeFiles/t36.dir/t36.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = t100_02\CMakeFiles\t36.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = t100_02\t36.exe
-  TARGET_IMPLIB = t100_02\libt36.dll.a
-  TARGET_PDB = t36.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build t100_02/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\cppdemo\cmake-build-debug\t100_02 && "D:\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build t100_02/edit_cache: phony t100_02/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build t100_02/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\cppdemo\cmake-build-debug\t100_02 && "D:\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cppdemo -BD:\cppdemo\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build t100_02/rebuild_cache: phony t100_02/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# D:/cppdemo/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target test
-
-
-#############################################
-# Order-only phony target for test
-
-build cmake_object_order_depends_target_test: phony || chapter_01/CMakeFiles/test.dir
-
-build chapter_01/CMakeFiles/test.dir/test.c.obj: C_COMPILER__test_unscanned_Debug D$:/cppdemo/chapter_01/test.c || cmake_object_order_depends_target_test
-  DEP_FILE = chapter_01\CMakeFiles\test.dir\test.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = chapter_01\CMakeFiles\test.dir
-  OBJECT_FILE_DIR = chapter_01\CMakeFiles\test.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test
-
-
-#############################################
-# Link the executable chapter_01\test.exe
-
-build chapter_01/test.exe: C_EXECUTABLE_LINKER__test_Debug chapter_01/CMakeFiles/test.dir/test.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = chapter_01\CMakeFiles\test.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = chapter_01\test.exe
-  TARGET_IMPLIB = chapter_01\libtest.dll.a
-  TARGET_PDB = test.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target test_02
 
 
@@ -1926,6 +715,171 @@ build 873/p3.exe: C_EXECUTABLE_LINKER__p3_Debug 873/CMakeFiles/p3.dir/p3.c.obj
   TARGET_IMPLIB = 873\libp3.dll.a
   TARGET_PDB = p3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target p4
+
+
+#############################################
+# Order-only phony target for p4
+
+build cmake_object_order_depends_target_p4: phony || 873/CMakeFiles/p4.dir
+
+build 873/CMakeFiles/p4.dir/p4.c.obj: C_COMPILER__p4_unscanned_Debug D$:/cppdemo/873/p4.c || cmake_object_order_depends_target_p4
+  DEP_FILE = 873\CMakeFiles\p4.dir\p4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p4.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p4
+
+
+#############################################
+# Link the executable 873\p4.exe
+
+build 873/p4.exe: C_EXECUTABLE_LINKER__p4_Debug 873/CMakeFiles/p4.dir/p4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p4.exe
+  TARGET_IMPLIB = 873\libp4.dll.a
+  TARGET_PDB = p4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8-4
+
+
+#############################################
+# Order-only phony target for 8-4
+
+build cmake_object_order_depends_target_8-4: phony || 873/CMakeFiles/8-4.dir
+
+build 873/CMakeFiles/8-4.dir/8-4.c.obj: C_COMPILER__8-4_unscanned_Debug D$:/cppdemo/873/8-4.c || cmake_object_order_depends_target_8-4
+  DEP_FILE = 873\CMakeFiles\8-4.dir\8-4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\8-4.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\8-4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8-4
+
+
+#############################################
+# Link the executable 873\8-4.exe
+
+build 873/8-4.exe: C_EXECUTABLE_LINKER__8-4_Debug 873/CMakeFiles/8-4.dir/8-4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\8-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\8-4.exe
+  TARGET_IMPLIB = 873\lib8-4.dll.a
+  TARGET_PDB = 8-4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8-5
+
+
+#############################################
+# Order-only phony target for 8-5
+
+build cmake_object_order_depends_target_8-5: phony || 873/CMakeFiles/8-5.dir
+
+build 873/CMakeFiles/8-5.dir/8-5.c.obj: C_COMPILER__8-5_unscanned_Debug D$:/cppdemo/873/8-5.c || cmake_object_order_depends_target_8-5
+  DEP_FILE = 873\CMakeFiles\8-5.dir\8-5.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\8-5.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\8-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8-5
+
+
+#############################################
+# Link the executable 873\8-5.exe
+
+build 873/8-5.exe: C_EXECUTABLE_LINKER__8-5_Debug 873/CMakeFiles/8-5.dir/8-5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\8-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\8-5.exe
+  TARGET_IMPLIB = 873\lib8-5.dll.a
+  TARGET_PDB = 8-5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8-6
+
+
+#############################################
+# Order-only phony target for 8-6
+
+build cmake_object_order_depends_target_8-6: phony || 873/CMakeFiles/8-6.dir
+
+build 873/CMakeFiles/8-6.dir/8-6.c.obj: C_COMPILER__8-6_unscanned_Debug D$:/cppdemo/873/8-6.c || cmake_object_order_depends_target_8-6
+  DEP_FILE = 873\CMakeFiles\8-6.dir\8-6.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\8-6.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\8-6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8-6
+
+
+#############################################
+# Link the executable 873\8-6.exe
+
+build 873/8-6.exe: C_EXECUTABLE_LINKER__8-6_Debug 873/CMakeFiles/8-6.dir/8-6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\8-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\8-6.exe
+  TARGET_IMPLIB = 873\lib8-6.dll.a
+  TARGET_PDB = 8-6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || 873/CMakeFiles/test.dir
+
+build 873/CMakeFiles/test.dir/test.c.obj: C_COMPILER__test_unscanned_Debug D$:/cppdemo/873/test.c || cmake_object_order_depends_target_test
+  DEP_FILE = 873\CMakeFiles\test.dir\test.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\test.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable 873\test.exe
+
+build 873/test.exe: C_EXECUTABLE_LINKER__test_Debug 873/CMakeFiles/test.dir/test.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\test.exe
+  TARGET_IMPLIB = 873\libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1950,7 +904,80 @@ build 873/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 873/rebuild_cache: phony 873/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cppdemo/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test01
+
+
+#############################################
+# Order-only phony target for test01
+
+build cmake_object_order_depends_target_test01: phony || LeetCode/CMakeFiles/test01.dir
+
+build LeetCode/CMakeFiles/test01.dir/test01.cpp.obj: CXX_COMPILER__test01_unscanned_Debug D$:/cppdemo/LeetCode/test01.cpp || cmake_object_order_depends_target_test01
+  DEP_FILE = LeetCode\CMakeFiles\test01.dir\test01.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\CMakeFiles\test01.dir
+  OBJECT_FILE_DIR = LeetCode\CMakeFiles\test01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test01
+
+
+#############################################
+# Link the executable LeetCode\test01.exe
+
+build LeetCode/test01.exe: CXX_EXECUTABLE_LINKER__test01_Debug LeetCode/CMakeFiles/test01.dir/test01.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\CMakeFiles\test01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\test01.exe
+  TARGET_IMPLIB = LeetCode\libtest01.dll.a
+  TARGET_PDB = test01.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build LeetCode/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\cppdemo\cmake-build-debug\LeetCode && "D:\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build LeetCode/edit_cache: phony LeetCode/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build LeetCode/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\cppdemo\cmake-build-debug\LeetCode && "D:\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cppdemo -BD:\cppdemo\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build LeetCode/rebuild_cache: phony LeetCode/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build 8-4: phony 873/8-4.exe
+
+build 8-4.exe: phony 873/8-4.exe
+
+build 8-5: phony 873/8-5.exe
+
+build 8-5.exe: phony 873/8-5.exe
+
+build 8-6: phony 873/8-6.exe
+
+build 8-6.exe: phony 873/8-6.exe
 
 build B2001: phony LuoGu/B2001.exe
 
@@ -2010,149 +1037,21 @@ build p3: phony 873/p3.exe
 
 build p3.exe: phony 873/p3.exe
 
+build p4: phony 873/p4.exe
+
+build p4.exe: phony 873/p4.exe
+
 build student: phony cpp/student.exe
 
 build student.exe: phony cpp/student.exe
 
-build t1: phony t100_01/t1.exe
+build test: phony 873/test.exe
 
-build t1.exe: phony t100_01/t1.exe
+build test.exe: phony 873/test.exe
 
-build t10: phony t100_01/t10.exe
+build test01: phony LeetCode/test01.exe
 
-build t10.exe: phony t100_01/t10.exe
-
-build t11: phony t100_01/t11.exe
-
-build t11.exe: phony t100_01/t11.exe
-
-build t12: phony t100_01/t12.exe
-
-build t12.exe: phony t100_01/t12.exe
-
-build t13: phony t100_01/t13.exe
-
-build t13.exe: phony t100_01/t13.exe
-
-build t14: phony t100_01/t14.exe
-
-build t14.exe: phony t100_01/t14.exe
-
-build t15: phony t100_01/t15.exe
-
-build t15.exe: phony t100_01/t15.exe
-
-build t16: phony t100_01/t16.exe
-
-build t16.exe: phony t100_01/t16.exe
-
-build t17: phony t100_01/t17.exe
-
-build t17.exe: phony t100_01/t17.exe
-
-build t18: phony t100_01/t18.exe
-
-build t18.exe: phony t100_01/t18.exe
-
-build t19: phony t100_01/t19.exe
-
-build t19.exe: phony t100_01/t19.exe
-
-build t2: phony t100_01/t2.exe
-
-build t2.exe: phony t100_01/t2.exe
-
-build t20: phony t100_01/t20.exe
-
-build t20.exe: phony t100_01/t20.exe
-
-build t21: phony t100_01/t21.exe
-
-build t21.exe: phony t100_01/t21.exe
-
-build t22: phony t100_01/t22.exe
-
-build t22.exe: phony t100_01/t22.exe
-
-build t23: phony t100_01/t23.exe
-
-build t23.exe: phony t100_01/t23.exe
-
-build t24: phony t100_01/t24.exe
-
-build t24.exe: phony t100_01/t24.exe
-
-build t25: phony t100_01/t25.exe
-
-build t25.exe: phony t100_01/t25.exe
-
-build t26: phony t100_01/t26.exe
-
-build t26.exe: phony t100_01/t26.exe
-
-build t27: phony t100_01/t27.exe
-
-build t27.exe: phony t100_01/t27.exe
-
-build t28: phony t100_01/t28.exe
-
-build t28.exe: phony t100_01/t28.exe
-
-build t29: phony t100_01/t29.exe
-
-build t29.exe: phony t100_01/t29.exe
-
-build t3: phony t100_01/t3.exe
-
-build t3.exe: phony t100_01/t3.exe
-
-build t30: phony t100_01/t30.exe
-
-build t30.exe: phony t100_01/t30.exe
-
-build t31: phony t100_02/t31.exe
-
-build t31.exe: phony t100_02/t31.exe
-
-build t32: phony t100_02/t32.exe
-
-build t32.exe: phony t100_02/t32.exe
-
-build t33: phony t100_02/t33.exe
-
-build t33.exe: phony t100_02/t33.exe
-
-build t35: phony t100_02/t35.exe
-
-build t35.exe: phony t100_02/t35.exe
-
-build t36: phony t100_02/t36.exe
-
-build t36.exe: phony t100_02/t36.exe
-
-build t4: phony t100_01/t4.exe
-
-build t4.exe: phony t100_01/t4.exe
-
-build t5: phony t100_01/t5.exe
-
-build t5.exe: phony t100_01/t5.exe
-
-build t6: phony t100_01/t6.exe
-
-build t6.exe: phony t100_01/t6.exe
-
-build t8: phony t100_01/t8.exe
-
-build t8.exe: phony t100_01/t8.exe
-
-build t9: phony t100_01/t9.exe
-
-build t9.exe: phony t100_01/t9.exe
-
-build test: phony chapter_01/test.exe
-
-build test.exe: phony chapter_01/test.exe
+build test01.exe: phony LeetCode/test01.exe
 
 build test_02: phony chapter_01/test_02.exe
 
@@ -2166,14 +1065,21 @@ build test_02.exe: phony chapter_01/test_02.exe
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug
 
-build all: phony cppdemo.exe t100_01/all t100_02/all chapter_01/all LuoGu/all cpp/all 873/all
+build all: phony cppdemo.exe chapter_01/all LuoGu/all cpp/all 873/all LeetCode/all
 
 # =============================================================================
 
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug/873
 
-build 873/all: phony 873/p1.exe 873/p2.exe 873/p3.exe
+build 873/all: phony 873/p1.exe 873/p2.exe 873/p3.exe 873/p4.exe 873/8-4.exe 873/8-5.exe 873/8-6.exe 873/test.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cppdemo/cmake-build-debug/LeetCode
+
+build LeetCode/all: phony LeetCode/test01.exe
 
 # =============================================================================
 
@@ -2187,7 +1093,7 @@ build LuoGu/all: phony LuoGu/B2001.exe LuoGu/B2002.exe LuoGu/B2003.exe LuoGu/B20
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug/chapter_01
 
-build chapter_01/all: phony chapter_01/test.exe chapter_01/test_02.exe
+build chapter_01/all: phony chapter_01/test_02.exe
 
 # =============================================================================
 
@@ -2197,34 +1103,20 @@ build chapter_01/all: phony chapter_01/test.exe chapter_01/test_02.exe
 build cpp/all: phony cpp/ClassDemo_01.exe cpp/student.exe
 
 # =============================================================================
-
-#############################################
-# Folder: D:/cppdemo/cmake-build-debug/t100_01
-
-build t100_01/all: phony t100_01/t1.exe t100_01/t2.exe t100_01/t3.exe t100_01/t4.exe t100_01/t5.exe t100_01/t6.exe t100_01/t8.exe t100_01/t9.exe t100_01/t10.exe t100_01/t11.exe t100_01/t12.exe t100_01/t13.exe t100_01/t14.exe t100_01/t15.exe t100_01/t16.exe t100_01/t17.exe t100_01/t18.exe t100_01/t19.exe t100_01/t20.exe t100_01/t21.exe t100_01/t22.exe t100_01/t23.exe t100_01/t24.exe t100_01/t25.exe t100_01/t26.exe t100_01/t27.exe t100_01/t28.exe t100_01/t29.exe t100_01/t30.exe
-
-# =============================================================================
-
-#############################################
-# Folder: D:/cppdemo/cmake-build-debug/t100_02
-
-build t100_02/all: phony t100_02/t31.exe t100_02/t32.exe t100_02/t33.exe t100_02/t35.exe t100_02/t36.exe
-
-# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/cppdemo/873/CMakeLists.txt D$:/cppdemo/CMakeLists.txt D$:/cppdemo/LuoGu/CMakeLists.txt D$:/cppdemo/chapter_01/CMakeLists.txt D$:/cppdemo/cpp/CMakeLists.txt D$:/cppdemo/t100_01/CMakeLists.txt D$:/cppdemo/t100_02/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/cppdemo/873/CMakeLists.txt D$:/cppdemo/CMakeLists.txt D$:/cppdemo/LeetCode/CMakeLists.txt D$:/cppdemo/LuoGu/CMakeLists.txt D$:/cppdemo/chapter_01/CMakeLists.txt D$:/cppdemo/cpp/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/cppdemo/873/CMakeLists.txt D$:/cppdemo/CMakeLists.txt D$:/cppdemo/LuoGu/CMakeLists.txt D$:/cppdemo/chapter_01/CMakeLists.txt D$:/cppdemo/cpp/CMakeLists.txt D$:/cppdemo/t100_01/CMakeLists.txt D$:/cppdemo/t100_02/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake D$:/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake D$:/cppdemo/873/CMakeLists.txt D$:/cppdemo/CMakeLists.txt D$:/cppdemo/LeetCode/CMakeLists.txt D$:/cppdemo/LuoGu/CMakeLists.txt D$:/cppdemo/chapter_01/CMakeLists.txt D$:/cppdemo/cpp/CMakeLists.txt: phony
 
 
 #############################################

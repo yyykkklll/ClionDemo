@@ -7,6 +7,7 @@ int main() {
         printf("Cannot open file\n");
         return 1;
     }
+    // 鸿蒙字体
     ch = (char) getchar();
     // input the character '#' ending this io
     while (ch != '#') {

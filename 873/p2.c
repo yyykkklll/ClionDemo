@@ -7,7 +7,7 @@
 int main()
 {
     int n;
-    printf("鑳借7鏁撮櫎鐨勬暟:\n");
+    printf("能被7整除的数:\n");
     for (n = 1; n <= 100; n++)
     {
         if (n % 7 == 0)

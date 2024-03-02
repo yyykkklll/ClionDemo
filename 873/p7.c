@@ -16,6 +16,7 @@ int main() {
             }
         }
         i++;
+    
     }
     if (num > 0) {
         count++;

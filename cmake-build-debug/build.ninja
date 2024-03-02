@@ -914,6 +914,171 @@ build 873/p9.exe: C_EXECUTABLE_LINKER__p9_Debug 873/CMakeFiles/p9.dir/p9.c.obj
   TARGET_PDB = p9.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p10
+
+
+#############################################
+# Order-only phony target for p10
+
+build cmake_object_order_depends_target_p10: phony || 873/CMakeFiles/p10.dir
+
+build 873/CMakeFiles/p10.dir/p10.c.obj: C_COMPILER__p10_unscanned_Debug D$:/cppdemo/873/p10.c || cmake_object_order_depends_target_p10
+  DEP_FILE = 873\CMakeFiles\p10.dir\p10.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p10.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p10
+
+
+#############################################
+# Link the executable 873\p10.exe
+
+build 873/p10.exe: C_EXECUTABLE_LINKER__p10_Debug 873/CMakeFiles/p10.dir/p10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p10.exe
+  TARGET_IMPLIB = 873\libp10.dll.a
+  TARGET_PDB = p10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p11
+
+
+#############################################
+# Order-only phony target for p11
+
+build cmake_object_order_depends_target_p11: phony || 873/CMakeFiles/p11.dir
+
+build 873/CMakeFiles/p11.dir/p11.c.obj: C_COMPILER__p11_unscanned_Debug D$:/cppdemo/873/p11.c || cmake_object_order_depends_target_p11
+  DEP_FILE = 873\CMakeFiles\p11.dir\p11.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p11.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p11
+
+
+#############################################
+# Link the executable 873\p11.exe
+
+build 873/p11.exe: C_EXECUTABLE_LINKER__p11_Debug 873/CMakeFiles/p11.dir/p11.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p11.exe
+  TARGET_IMPLIB = 873\libp11.dll.a
+  TARGET_PDB = p11.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p12
+
+
+#############################################
+# Order-only phony target for p12
+
+build cmake_object_order_depends_target_p12: phony || 873/CMakeFiles/p12.dir
+
+build 873/CMakeFiles/p12.dir/P12.c.obj: C_COMPILER__p12_unscanned_Debug D$:/cppdemo/873/P12.c || cmake_object_order_depends_target_p12
+  DEP_FILE = 873\CMakeFiles\p12.dir\P12.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p12.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p12.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p12
+
+
+#############################################
+# Link the executable 873\p12.exe
+
+build 873/p12.exe: C_EXECUTABLE_LINKER__p12_Debug 873/CMakeFiles/p12.dir/P12.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p12.exe
+  TARGET_IMPLIB = 873\libp12.dll.a
+  TARGET_PDB = p12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p13
+
+
+#############################################
+# Order-only phony target for p13
+
+build cmake_object_order_depends_target_p13: phony || 873/CMakeFiles/p13.dir
+
+build 873/CMakeFiles/p13.dir/p13.c.obj: C_COMPILER__p13_unscanned_Debug D$:/cppdemo/873/p13.c || cmake_object_order_depends_target_p13
+  DEP_FILE = 873\CMakeFiles\p13.dir\p13.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p13.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p13.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p13
+
+
+#############################################
+# Link the executable 873\p13.exe
+
+build 873/p13.exe: C_EXECUTABLE_LINKER__p13_Debug 873/CMakeFiles/p13.dir/p13.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p13.exe
+  TARGET_IMPLIB = 873\libp13.dll.a
+  TARGET_PDB = p13.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p14
+
+
+#############################################
+# Order-only phony target for p14
+
+build cmake_object_order_depends_target_p14: phony || 873/CMakeFiles/p14.dir
+
+build 873/CMakeFiles/p14.dir/p14.c.obj: C_COMPILER__p14_unscanned_Debug D$:/cppdemo/873/p14.c || cmake_object_order_depends_target_p14
+  DEP_FILE = 873\CMakeFiles\p14.dir\p14.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p14.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p14.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p14
+
+
+#############################################
+# Link the executable 873\p14.exe
+
+build 873/p14.exe: C_EXECUTABLE_LINKER__p14_Debug 873/CMakeFiles/p14.dir/p14.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p14.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p14.exe
+  TARGET_IMPLIB = 873\libp14.dll.a
+  TARGET_PDB = p14.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 8-4
 
 
@@ -1194,6 +1359,26 @@ build p1: phony 873/p1.exe
 
 build p1.exe: phony 873/p1.exe
 
+build p10: phony 873/p10.exe
+
+build p10.exe: phony 873/p10.exe
+
+build p11: phony 873/p11.exe
+
+build p11.exe: phony 873/p11.exe
+
+build p12: phony 873/p12.exe
+
+build p12.exe: phony 873/p12.exe
+
+build p13: phony 873/p13.exe
+
+build p13.exe: phony 873/p13.exe
+
+build p14: phony 873/p14.exe
+
+build p14.exe: phony 873/p14.exe
+
 build p2: phony 873/p2.exe
 
 build p2.exe: phony 873/p2.exe
@@ -1257,7 +1442,7 @@ build all: phony cppdemo.exe chapter_01/all LuoGu/all cpp/all 873/all LeetCode/a
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug/873
 
-build 873/all: phony 873/p1.exe 873/p2.exe 873/p3.exe 873/p4.exe 873/p5.exe 873/p6.exe 873/p7.exe 873/p8.exe 873/p9.exe 873/8-4.exe 873/8-5.exe 873/8-6.exe 873/test.exe
+build 873/all: phony 873/p1.exe 873/p2.exe 873/p3.exe 873/p4.exe 873/p5.exe 873/p6.exe 873/p7.exe 873/p8.exe 873/p9.exe 873/p10.exe 873/p11.exe 873/p12.exe 873/p13.exe 873/p14.exe 873/8-4.exe 873/8-5.exe 873/8-6.exe 873/test.exe
 
 # =============================================================================
 

@@ -1,34 +1,37 @@
 /**
-* @author yklsfzy
-* @date 2024/2/23/0023 17:35:10
-*/
+ * @author yklsfzy
+ * @date 2024/2/23/0023 17:35:10
+ */
 #include <stdio.h>
 
-// å‡½æ•°å£°æ˜
+// º¯ÊıÉùÃ÷
 int findGCD(int a, int b);
 
 int findLCM(int a, int b);
 
-int main() {
-    // è¾“å…¥ä¸¤ä¸ªæ•´æ•°
+int main()
+{
+    // ÊäÈëÁ½¸öÕûÊı
     int num1, num2;
-    printf("è¾“å…¥ä¸¤ä¸ªæ•´æ•°ï¼š");
+    printf("ÊäÈëÁ½¸öÕûÊı??");
     scanf("%d %d", &num1, &num2);
 
-    // è®¡ç®—æœ€å¤§å…¬çº¦æ•°å¹¶è¾“å‡º
+    // ¼ÆËã×î´ó¹«Ô¼Êı²¢Êä??
     int gcd = findGCD(num1, num2);
-    printf("æœ€å¤§å…¬çº¦æ•°ï¼š%d\n", gcd);
+    printf("×î´ó¹«Ô¼Êı??%d\n", gcd);
 
-    // è®¡ç®—æœ€å°å…¬å€æ•°å¹¶è¾“å‡º
+    // ¼ÆËã×îĞ¡¹«±¶Êı²¢Êä??
     int lcm = findLCM(num1, num2);
-    printf("æœ€å°å…¬å€æ•°ï¼š%d\n", lcm);
+    printf("×îĞ¡¹«±¶Êı??%d\n", lcm);
 
     return 0;
 }
 
-// å‡½æ•°å®šä¹‰ï¼šæ±‚æœ€å¤§å…¬çº¦æ•°
-int findGCD(int a, int b) {
-    while (b != 0) {
+// º¯Êı¶¨Òå£ºÇó×î´ó¹«Ô¼Êı
+int findGCD(int a, int b)
+{
+    while (b != 0)
+    {
         int temp = b;
         b = a % b;
         a = temp;
@@ -36,8 +39,9 @@ int findGCD(int a, int b) {
     return a;
 }
 
-// å‡½æ•°å®šä¹‰ï¼šæ±‚æœ€å°å…¬å€æ•°
-int findLCM(int a, int b) {
+// º¯Êı¶¨Òå£ºÇó×îĞ¡¹«±¶Êı
+int findLCM(int a, int b)
+{
     int gcd = findGCD(a, b);
     int lcm = (a * b) / gcd;
     return lcm;

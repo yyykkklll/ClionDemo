@@ -1,26 +1,27 @@
 #include <stdio.h>
 
-int main() {
-    char str[1000];
-    printf("please input the string:\n");
-    gets(str);
-    int i = 0;
-    int count = 0, num = 0;
-    while (str[i] != '\0') {
-        if (str[i] >= '0' && str[i] <= '9') {
-            num = num * 10 + (str[i] - '0');
-        } else {
-            if (num > 0) {
-                count++;
-                num = 0;
+int main()
+{
+    int x, one, two, five, exit = 0;
+    printf("enter x:\n");
+    scanf("%d", &x);
+    for (one = 1; one < x * 10; one++)
+    {
+        for (two = 1; two < x * 10 / 2; two++)
+        {
+            for (five = 1; five < x * 10 / 5; five++)
+            {
+                if (one + two * 2 + five * 5 == x * 10)
+                {
+                    printf("可以用%d个一角,%d个两角，%d个五角 凑出%d元\n", one, two, five, x);
+                    exit = 1;
+                }
             }
         }
-        i++;
     }
-    if (num > 0) {
-        count++;
-        num = 0;
+    if (exit == 0)
+    {
+        printf("no\n");
     }
-    printf("%d", count);
     return 0;
 }

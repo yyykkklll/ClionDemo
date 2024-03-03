@@ -1,0 +1,489 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "chapter_01",
+					"jsonFile" : "directory-chapter_01-Debug-88e3ab379ca369d36ab9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "chapter_01",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "LuoGu",
+					"jsonFile" : "directory-LuoGu-Debug-9bc16088c0ccfdf8ab85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "LuoGu",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "cpp",
+					"jsonFile" : "directory-cpp-Debug-9720cc46e7c3a483bcac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "cpp",
+					"targetIndexes" : 
+					[
+						13,
+						29
+					]
+				},
+				{
+					"build" : "873",
+					"jsonFile" : "directory-873-Debug-548b237a8ed45b9e01f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "873",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30
+					]
+				},
+				{
+					"build" : "LeetCode",
+					"jsonFile" : "directory-LeetCode-Debug-19959c33d7c580033c8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "LeetCode",
+					"targetIndexes" : 
+					[
+						31
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cppdemo",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ClionCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ClionCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ClionCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ClionCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ClionCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "8-4::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-8-4-Debug-1e9d1af2558b63c76c6b.json",
+					"name" : "8-4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "8-5::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-8-5-Debug-d5976fedc2aea3642d29.json",
+					"name" : "8-5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "8-6::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-8-6-Debug-d03c0c62e489531bc533.json",
+					"name" : "8-6",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2001::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2001-Debug-a20a2c05e587b1853186.json",
+					"name" : "B2001",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2002::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2002-Debug-ac31318a62cd21872cb4.json",
+					"name" : "B2002",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2003::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2003-Debug-0747e4a0487676e58469.json",
+					"name" : "B2003",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2008::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2008-Debug-540fdeeabf0b973e8d45.json",
+					"name" : "B2008",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2010::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2010-Debug-f99e0f4e30486d66a38f.json",
+					"name" : "B2010",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2011::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2011-Debug-1ca88337b1b8d6045e05.json",
+					"name" : "B2011",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2012::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2012-Debug-53e0c94806014f968331.json",
+					"name" : "B2012",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2013::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2013-Debug-286d6fa7894c8d117078.json",
+					"name" : "B2013",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2014::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2014-Debug-d9a87213dc1eac72a0c4.json",
+					"name" : "B2014",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "B2015::@645d7ac198ec79a648b4",
+					"jsonFile" : "target-B2015-Debug-43c9e1bd7a4c351c2912.json",
+					"name" : "B2015",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ClassDemo_01::@0bdf0601ed3c7fec7676",
+					"jsonFile" : "target-ClassDemo_01-Debug-1ff3e625bf68045a7a22.json",
+					"name" : "ClassDemo_01",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppdemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppdemo-Debug-2bca458384b218c4ca1f.json",
+					"name" : "cppdemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p1::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p1-Debug-8a028c8293b2bbacd869.json",
+					"name" : "p1",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p10::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p10-Debug-306a8cb320927f337cc1.json",
+					"name" : "p10",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p11::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p11-Debug-ce82c71951f4d5fd1911.json",
+					"name" : "p11",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p12::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p12-Debug-2848b5252ce11b87e635.json",
+					"name" : "p12",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p13::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p13-Debug-fa860d788787244b580f.json",
+					"name" : "p13",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p14::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p14-Debug-d2e6f04d3df711910091.json",
+					"name" : "p14",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p2::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p2-Debug-de9579e6cd94b36741aa.json",
+					"name" : "p2",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p3::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p3-Debug-4652b681e12eb8d44b4c.json",
+					"name" : "p3",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p4::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p4-Debug-2e48136611ea2106718c.json",
+					"name" : "p4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p5::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p5-Debug-68c202c0b61246db7b95.json",
+					"name" : "p5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p6::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p6-Debug-4c3a5124680d6bc0a945.json",
+					"name" : "p6",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p7::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p7-Debug-8f27b588a37bfca52e1b.json",
+					"name" : "p7",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p8::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p8-Debug-9ee666511ff5df3fd842.json",
+					"name" : "p8",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p9::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-p9-Debug-77a25cdb48f1a68159ad.json",
+					"name" : "p9",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "student::@0bdf0601ed3c7fec7676",
+					"jsonFile" : "target-student-Debug-74f68c6814925edc56fb.json",
+					"name" : "student",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@d1a7126a1774debf66f3",
+					"jsonFile" : "target-test-Debug-11329d5cfe6fe0d1a9b6.json",
+					"name" : "test",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test01::@5ff464a4e4d786b6980f",
+					"jsonFile" : "target-test01-Debug-6de3da6c75b9380e7b64.json",
+					"name" : "test01",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_02::@541cee391a7e2f79c493",
+					"jsonFile" : "target-test_02-Debug-4c8d6e084e684191da15.json",
+					"name" : "test_02",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cppdemo/cmake-build-debug",
+		"source" : "D:/cppdemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

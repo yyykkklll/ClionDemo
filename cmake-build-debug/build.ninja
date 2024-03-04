@@ -1079,6 +1079,39 @@ build 873/p14.exe: C_EXECUTABLE_LINKER__p14_Debug 873/CMakeFiles/p14.dir/p14.c.o
   TARGET_PDB = p14.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p15
+
+
+#############################################
+# Order-only phony target for p15
+
+build cmake_object_order_depends_target_p15: phony || 873/CMakeFiles/p15.dir
+
+build 873/CMakeFiles/p15.dir/p15.c.obj: C_COMPILER__p15_unscanned_Debug D$:/cppdemo/873/p15.c || cmake_object_order_depends_target_p15
+  DEP_FILE = 873\CMakeFiles\p15.dir\p15.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = 873\CMakeFiles\p15.dir
+  OBJECT_FILE_DIR = 873\CMakeFiles\p15.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p15
+
+
+#############################################
+# Link the executable 873\p15.exe
+
+build 873/p15.exe: C_EXECUTABLE_LINKER__p15_Debug 873/CMakeFiles/p15.dir/p15.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 873\CMakeFiles\p15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 873\p15.exe
+  TARGET_IMPLIB = 873\libp15.dll.a
+  TARGET_PDB = p15.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 8-4
 
 
@@ -1379,6 +1412,10 @@ build p14: phony 873/p14.exe
 
 build p14.exe: phony 873/p14.exe
 
+build p15: phony 873/p15.exe
+
+build p15.exe: phony 873/p15.exe
+
 build p2: phony 873/p2.exe
 
 build p2.exe: phony 873/p2.exe
@@ -1442,7 +1479,7 @@ build all: phony cppdemo.exe chapter_01/all LuoGu/all cpp/all 873/all LeetCode/a
 #############################################
 # Folder: D:/cppdemo/cmake-build-debug/873
 
-build 873/all: phony 873/p1.exe 873/p2.exe 873/p3.exe 873/p4.exe 873/p5.exe 873/p6.exe 873/p7.exe 873/p8.exe 873/p9.exe 873/p10.exe 873/p11.exe 873/p12.exe 873/p13.exe 873/p14.exe 873/8-4.exe 873/8-5.exe 873/8-6.exe 873/test.exe
+build 873/all: phony 873/p1.exe 873/p2.exe 873/p3.exe 873/p4.exe 873/p5.exe 873/p6.exe 873/p7.exe 873/p8.exe 873/p9.exe 873/p10.exe 873/p11.exe 873/p12.exe 873/p13.exe 873/p14.exe 873/p15.exe 873/8-4.exe 873/8-5.exe 873/8-6.exe 873/test.exe
 
 # =============================================================================
 

@@ -1,9 +1,27 @@
 #include <stdio.h>
+
 int main()
 {
-    const char *s[3] = {"point ", " continue ", " break "};
-    for (int i = 2; i >= 0; i--)
-        for (int j = 2; j > i; j--)
-            printf("%s \n ", s[i] + j);
+    int digit, number, pow, t_number;
+    scanf("%d", &number);
+    t_number = number;
+    pow = 1;
+
+    while (t_number >= 10)
+    {
+        pow = pow * 10;
+        t_number = t_number / 10;
+    }
+
+    while (pow >= 1)
+    {
+        digit = number / pow;
+        number = number % pow;
+        pow = pow / 10;
+        printf("%d ", digit);
+    }
+
+    printf("\n");
+
     return 0;
 }

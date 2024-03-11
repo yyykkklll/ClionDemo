@@ -1,5 +1,5 @@
 /**
-* @author yklsfzy
+* @author 水仙花数
 * @date 2024/2/23/0023 17:20:41
 */
 #include <stdio.h>
